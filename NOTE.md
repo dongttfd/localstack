@@ -20,7 +20,7 @@
   - Elastic, BeanStalk, Lambda được coi như PaaS
   - SES, WorkMail được coi như SaaS
 
-## Các dịch vụ
+## Các dịch vụ Amazon Web Services
 #### Computing & Container
 Các dịch vụ tạo ra máy chủ ảo hỗ trợ deploy source hoặc docker image
 - Amazon Elastic Compute Cloud(EC2)
@@ -51,6 +51,7 @@ Các dịch vụ tạo ra máy chủ ảo hỗ trợ deploy source hoặc docker
 - Amazon DynamoDB: NoSQL độc quyền của Amazon
 - Amazon Relational Database Service (RDS): Dữ liệu quan hệ
 - Amazon DocumentDB: Hỗ trợ mongoDB
+- Amazon MemoryDB for Redis 
 
 #### Security & Identity
 - AWS Identity ad Access Management (IAM): Quản lý: user, role, permission, account
@@ -61,4 +62,49 @@ Các dịch vụ tạo ra máy chủ ảo hỗ trợ deploy source hoặc docker
 - AWS Certificate Manager (ACM): Quản lý Certificate, SSL
 
 #### Management & Governance
+- AWS Config: Quản lý cấu hình,
+- AWS Management Console: Màn hình Console tương tác của người dùng
+- AWS CloudTrail: Quản lý truy vết
+- AWS Control Tower: Quản lý nhiều account trong tổ chức
+- AWS System Manager: Quản lý thao tác Update, Patching
+- AWS Trust Advisor: Các lời khuyên về Security
+- AWS Organization: Quản lý tổ chức
+- AWS CloudFormation: Deploy hệ thống từ template
+- AWS Well-Architected Tool: Thiết kế hệ thống đạt chuẩn
+- AWS Resource Explorer: Quản lý tài nguyên sử dụng
 
+#### Monitoring
+- Amazon Cloud Watch: Monitoring hệ thống
+- AWS CloudTrail: Quản lý truy vết
+
+#### Messaging, Application Integration
+- Amazon Simple Mail Service (SES): Dịch vụ mail service
+- Amazon Simple Notification Service (SNS): Notification
+- Amazon Simple Queue Service (SQS): Message Queue
+- Amazon EventBridge: Event automation
+- Amazon API Gateway: Expose api cho người dùng cuối
+
+#### Deploy & Automation
+- AWS Cloud9: Cung cấp môi trường phát triển cho developer mà không cần local
+- AWS Code Build: Build code (CICD)
+- AWS Code Commit: Commit code (CICD)
+- AWS Code Deploy: Deploy code (CICD)
+- AWS Code Pipeline (CICD)
+- AWS X-Ray: Giám sát
+- AWS Cloud Development Kit (CDK): CDK cho developer
+- AWS CloudShell: Command line trên web
+
+#### Migration
+- AWS Database Migration Service (DMS): Migrate database
+- AWS Server Migration Service (SMS): Migrate server
+
+#### Bigdata & Data analytic
+- Amazon Redshift: tổng hợp báo cáo từ dữ liệu lớn
+- Amazon QuickSight: Biểu đồ
+
+#### AI & Machine Learning
+- AWS Polly: Chuyển đổi text - giọng nói
+- AWS Rekognition: Nhận diện hình ảnh
+- AWS SageMaker: Train model
+- AWS Transate: Dịch thuật
+- Amazon Code Guru: Coding

@@ -5,7 +5,7 @@
 - Install [localstack CLI](https://github.com/localstack/localstack?tab=readme-ov-file#installation)
 - Install [awslocal CLI](https://docs.localstack.cloud/user-guide/integrations/aws-cli/#localstack-aws-cli-awslocal) or [aws CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [Docker localstack Plugin](https://hub.docker.com/extensions/localstack/localstack-docker-desktop)
-- [Localstack Dashboard](https://app.localstack.cloud/download) (same [AWS Services](https://console.aws.amazon.com/console/services))
+- [Localstack Dashboard](https://app.localstack.cloud/download) (same [AWS Console](https://console.aws.amazon.com/console/services)) or use [Web UI](https://app.localstack.cloud/instances) if you connected `localstack` account via [Docker localstack Plugin](https://hub.docker.com/extensions/localstack/localstack-docker-desktop)
 
 ## Run localstack: `docker-compose up -d`
 
@@ -43,5 +43,7 @@ aws_secret_access_key=test
 aws s3 mb s3://test --profile localstack
 aws s3 ls --profile localstack
 ```
+###### [LocalStack endpoints](https://docs.localstack.cloud/references/internal-endpoints/#localstack-endpoints)
+
 ## Document
 - [localstack](https://docs.localstack.cloud/overview/)
